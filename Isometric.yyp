@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "34bb8dd3-b292-4500-92d1-d772e888febf",
+            "Value": {
+                "id": "dd605a24-be9e-4f8b-bac6-ebc3fc0f3cfc",
+                "resourcePath": "objects\\debugConsole\\debugConsole.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "381064b0-af82-4c37-adc5-975521927064",
             "Value": {
                 "id": "da8755bb-7633-4890-94f0-597893c82a96",
@@ -84,6 +92,14 @@
                 "id": "247b70d7-1b5d-428f-933c-61d3f8c23e77",
                 "resourcePath": "views\\3c1794a4-0cc2-4293-9245-acce10f6a44f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "43549f0d-ff00-41c1-872c-3f1f92c459bf",
+            "Value": {
+                "id": "a1d9eff3-9b6b-41cc-8e32-a06fd94ee4b4",
+                "resourcePath": "scripts\\debugConsoleParse\\debugConsoleParse.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -295,6 +311,14 @@
             }
         },
         {
+            "Key": "d944db13-4ddf-446f-9ae9-7cb4221137b5",
+            "Value": {
+                "id": "a75faca5-3455-435f-b804-a42fe7c4aea5",
+                "resourcePath": "scripts\\debugConsoleDrawText\\debugConsoleDrawText.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e3a740d0-2384-4997-a3e8-a17d00b67910",
             "Value": {
                 "id": "97f64f1a-5c31-41b0-b470-4032e68565db",
@@ -326,7 +350,9 @@
         "bfe29cd2-4120-40bb-a3cd-a267295bd84a",
         "ad04a95d-1a2e-4d75-b8b6-aec5c78e9657",
         "58c5a48f-1462-49cd-915e-fb6b1491f58a",
-        "7ce7c48d-710e-47ae-9aa4-613e6733b772"
+        "7ce7c48d-710e-47ae-9aa4-613e6733b772",
+        "d944db13-4ddf-446f-9ae9-7cb4221137b5",
+        "43549f0d-ff00-41c1-872c-3f1f92c459bf"
     ],
     "tutorial": ""
 }

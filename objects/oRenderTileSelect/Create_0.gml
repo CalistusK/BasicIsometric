@@ -1,0 +1,2 @@
+//bools
+drawGrid = false;

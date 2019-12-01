@@ -12,6 +12,13 @@ for (var tX = 0; tX < MAP_W; tX++)
 		tileIndex = tileData[TILE.SPRITE];
 		tileZ = tileData[TILE.Z];
 		
+		//Draw highlight on all tiles
+		if (drawGrid)
+		{
+			draw_sprite(sTileSelect, -1, screenX, screenY + tileZ);
+		}
+		
+		//Draw tile highlight on mouseover
 		if (ScreenToTileX(mouse_x,mouse_y) == tX) && ((ScreenToTileY(mouse_x,mouse_y) == tY))
 		{
 			draw_sprite(sTileSelect, -1, screenX, screenY + tileZ);
