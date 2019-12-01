@@ -24,6 +24,11 @@ if (dConEnabled)
 			keyboard_string = "";
 		}
 		
+		if (keyboard_check_pressed(vk_up))
+		{
+			keyboard_string = ds_list_find_value(dConLog, ds_list_size(dConLog) - 1);
+		}
+		
 	} else {
 		keyboard_string = "";
 	}

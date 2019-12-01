@@ -1,2 +1,2 @@
 //bools
-drawGrid = false;
+drawIsoGrid = false;

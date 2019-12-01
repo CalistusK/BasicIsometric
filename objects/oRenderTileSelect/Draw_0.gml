@@ -13,7 +13,7 @@ for (var tX = 0; tX < MAP_W; tX++)
 		tileZ = tileData[TILE.Z];
 		
 		//Draw highlight on all tiles
-		if (drawGrid)
+		if (drawIsoGrid)
 		{
 			draw_sprite(sTileSelect, -1, screenX, screenY + tileZ);
 		}
