@@ -1,7 +1,7 @@
 if (dConEnabled)
 {
 	//Toggle console on keypress
-	if (keyboard_check_pressed(vk_tab)) dConDraw = !dConDraw;
+	if (keyboard_check_pressed(vk_f12)) dConDraw = !dConDraw;
 	
 	//Prune the oldest text in ds_list if it gets too big
 	if (ds_list_size(dConLog) > 20)
@@ -27,6 +27,11 @@ if (dConEnabled)
 		if (keyboard_check_pressed(vk_up))
 		{
 			keyboard_string = ds_list_find_value(dConLog, ds_list_size(dConLog) - 1);
+		}
+		
+		if (keyboard_check_pressed(vk_tab))
+		{
+			debugConsoleAutocomplete(keyboard_string);
 		}
 		
 	} else {

@@ -8,3 +8,5 @@ dConCursorDelay = 20;
 alarm[0] = dConCursorDelay;
 
 dConLog = ds_list_create();
+
+dConCommands[0] = "drawtile"
