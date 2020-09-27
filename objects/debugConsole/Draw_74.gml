@@ -1,5 +1,5 @@
 /// @description Draw console background
-if (dConEnabled && dConDraw)
+if (debug_mode && dConEnabled && dConDraw)
 {
 	dConTopAnchor = SCREEN_H - ((string_height("string") - 5) * 8)
 	draw_set_alpha(0.5); //set alpha for drawing this bg

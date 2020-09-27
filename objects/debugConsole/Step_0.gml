@@ -1,4 +1,4 @@
-if (dConEnabled)
+if (debug_mode && dConEnabled)
 {
 	//Toggle console on keypress
 	if (keyboard_check_pressed(vk_f12)) dConDraw = !dConDraw;

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "debug",
+    "path": "folders/Scripts/debug.yy",
   },
   "resourceVersion": "1.0",
-  "name": "macros",
+  "name": "fnDebugConsole",
   "tags": [],
   "resourceType": "GMScript",
 }

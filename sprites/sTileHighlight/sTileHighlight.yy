@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f8a77785-e06b-4699-bdb5-edf5f62271b2","path":"sprites/sTileSelect/sTileSelect.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f8a77785-e06b-4699-bdb5-edf5f62271b2","path":"sprites/sTileSelect/sTileSelect.yy",},"LayerId":{"name":"6e5e439a-212a-4668-b4f5-00daf42735b9","path":"sprites/sTileSelect/sTileSelect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sTileSelect","path":"sprites/sTileSelect/sTileSelect.yy",},"resourceVersion":"1.0","name":"f8a77785-e06b-4699-bdb5-edf5f62271b2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a64610e5-0567-43c5-a4e3-e69062c474bf","path":"sprites/sTileHighlight/sTileHighlight.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a64610e5-0567-43c5-a4e3-e69062c474bf","path":"sprites/sTileHighlight/sTileHighlight.yy",},"LayerId":{"name":"6c2c8184-8d53-4434-98fe-0d575573a3d3","path":"sprites/sTileHighlight/sTileHighlight.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sTileHighlight","path":"sprites/sTileHighlight/sTileHighlight.yy",},"resourceVersion":"1.0","name":"a64610e5-0567-43c5-a4e3-e69062c474bf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sTileSelect","path":"sprites/sTileSelect/sTileSelect.yy",},
+    "spriteId": {"name":"sTileHighlight","path":"sprites/sTileHighlight/sTileHighlight.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.04,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e5b95220-e18e-40d6-a9bd-038dc0269c56","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f8a77785-e06b-4699-bdb5-edf5f62271b2","path":"sprites/sTileSelect/sTileSelect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"76936ff0-4658-44d5-9319-6376c7069421","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a64610e5-0567-43c5-a4e3-e69062c474bf","path":"sprites/sTileHighlight/sTileHighlight.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sTileSelect","path":"sprites/sTileSelect/sTileSelect.yy",},
+    "parent": {"name":"sTileHighlight","path":"sprites/sTileHighlight/sTileHighlight.yy",},
     "resourceVersion": "1.3",
     "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6e5e439a-212a-4668-b4f5-00daf42735b9","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6c2c8184-8d53-4434-98fe-0d575573a3d3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sTileSelect",
+  "name": "sTileHighlight",
   "tags": [],
   "resourceType": "GMSprite",
 }

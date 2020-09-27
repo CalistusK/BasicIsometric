@@ -1,5 +1,5 @@
 /// @description Draw text
-if (dConEnabled && dConDraw)
+if (debug_mode && dConEnabled && dConDraw)
 {
 	var cursortext = dConUserText + dConCursor;
 	debugConsoleDrawText(dConLog);
